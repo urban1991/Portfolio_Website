@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React, Portfolio">
+    <meta name="author" content="Piotr Urbaniak">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/swiper.min.css" />
+    <script src="https://kit.fontawesome.com/9459d033b0.js" crossorigin="anonymous"></script>
+    <script src="swiper.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Roboto:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap&subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+  <div id="opakowanie">
+    <nav class="top-nav">
+        <div class="logo-box">
+          <i class="fas fa-chevron-left"></i>
+          <h3>PU</h3>
+          <i class="fas fa-chevron-right"></i>
+          
+        </div>
+        
+        <ul class="ul-nav-list">
+
+            <li>
+              <a href="#about">
+                About me
+              </a>
+            </li>
+            <li>
+              <a href="#technology">
+                Technology
+              </a>
+            </li>
+            <li>
+              <a href="#projects">
+               Projects
+              </a>
+            </li>
+            <li>
+              <a href="#contact">
+                Send a message
+              </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="motto">
+      <h1>
+        Hey, <br>
+         my name is Peter, <br>
+        <span>I'm Web Developer</span> 
+      </h1>
+      <button class="button">Let's chat</button>
+      <div class="iconAnimation">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <i class="fas fa-angle-double-down"></i>
+      </div>
+    </div>
+  </div>
+    <main>
+      <section id="about" class="aboutMe">
+        <h2>About Me</h2>
+        <div class="descriptionMe">
+          <i class="fas fa-male"></i>
+          <a  id="buttonCV" href="./public/CV_Piotr_Urbaniak.pdf" target="_blank"><button class="button">CV</button></a>
+        </div>
+        <div class="descriptionMe" id="opis">
+          <p>
+            Hey, nazywam się Piotr i od jakiegoś czasu zajmuje sie programowaniem na front-endzie.
+            W programowaniu pociaga mnie fakt, że dzisiejsza technologia daje prawie nieograniczone możliwości twórcze,
+            które można wykorzystać do stworzenia niepowtarzalnych rzeczy. Jednocześnie daje też możliwość zwiększania 
+            swojej wiedzy i kompetencji a wręcz wymusza ciąły rozwój, co dodatkowo zwiększa atrakcyjność tej branży.
+              Do tej pory pracowałem na własny rachunek prowadząc własny biznes internetowy, chciałbym rozwijać się w
+              kierunku web developera poszerzając wiedzę i zyskując cenne doświadczenie na nowej ścieżce kariery. 
+              Poniżej przedstawiam technologie, które poznałem oraz kilka pierwszych projektów stworzonych przy ich użyciu.
+              <br>
+              <br> 
+              Życzę pozytywnych wrażeń i dzięki, że wpadłeś.
+            </p>
+        </div>
+      </section>
+      <section id="technology" class="technology">
+        <h2>Technology</h2>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"> 
+              <div class="card js">
+                <div class="sliderIcon">
+                  <i class="fab fa-js-square"></i>
+                </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent tempus nisi id mauris consequat volutpat. Pellentesque
+                  habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                  Quisque quis lectus scelerisque, bibendum sapien eu, sollicitudin nibh</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide"> 
+              <div class="card html">
+                <div class="sliderIcon">
+                  <i class="fab fa-html5"></i>
+                </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent tempus nisi id mauris consequat volutpat. Pellentesque
+                  habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                  Quisque quis lectus scelerisque, bibendum sapien eu, sollicitudin nibh</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide"> 
+              <div class="card css-scss">
+                <div class="sliderIcon">
+                  <i class="fab fa-css3-alt"></i>
+                  <i class="fab fa-sass"></i>
+                </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent tempus nisi id mauris consequat volutpat. Pellentesque
+                  habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                  Quisque quis lectus scelerisque, bibendum sapien eu, sollicitudin nibh</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide"> 
+              <div class="card react">
+                <div class="sliderIcon">
+                  <i class="fab fa-react"></i>
+                </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent tempus nisi id mauris consequat volutpat. Pellentesque
+                  habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                  Quisque quis lectus scelerisque, bibendum sapien eu, sollicitudin nibh</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide"> 
+              <div class="card node">
+                <div class="sliderIcon">
+                  <i class="fab fa-node"></i>
+                </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent tempus nisi id mauris consequat volutpat. Pellentesque
+                  habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                  Quisque quis lectus scelerisque, bibendum sapien eu, sollicitudin nibh</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide"> 
+              <div class="card git">
+                <div class="sliderIcon">
+                  <i class="fab fa-git-alt"></i>
+                </div>
+                <div class="content">
+                  
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent tempus nisi id mauris consequat volutpat. Pellentesque
+                  habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                  Quisque quis lectus scelerisque, bibendum sapien eu, sollicitudin nibh</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="projects-wrapper">
+        <div class="box">
+          <div class="glass"></div>
+            <div class="content">
+              <h2>Project1</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent tempus nisi id mauris consequat volutpat. Pellentesque
+              habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+              Quisque quis lectus scelerisque, bibendum sapien eu, sollicitudin nibh</p>
+            </div>
+        </div>
+        <div class="box">
+          <div class="glass"></div>
+            <div class="content">
+              <h2>Project2</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent tempus nisi id mauris consequat volutpat. Pellentesque
+              </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="glass"></div>
+            <div class="content">
+              <h2>Project3</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent tempus nisi id mauris consequat volutpat. Pellentesque
+              habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+              Quisque quis lectus scelerisque, bibendum sapien eu, sollicitudin nibh</p>
+            </div>
+         
+        </div>
+      </div>
+      </section>
+          
+    </main>
+    <footer id="contact">
+      
+      <form action="/" method="post">
+        <h2 class="form-title">CONTACT</h2>
+        <input type="text" name="name" id="nameInput" placeholder="       NAME">
+        <input type="text" name="email" id="emailInput" placeholder="       EMAIL">
+        <textarea name="" id="" cols="30" rows="10" placeholder="      MESSAGE"></textarea>
+        <button class="button submit" type="submit"><i class="far fa-paper-plane"></i></button>
+
+      </form>
+      <div class="adress">
+        <div class="inner-adress">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>3F/45 Międzyleska, Wrocław <br>
+             Dolnośląskie, Poland</p>
+        </div>
+        <div class="inner-adress">
+          <i class="fas fa-envelope"></i>
+          <p>purbaniak0909@gmail.com</p>
+        </div>
+        <div class="inner-adress">
+          <i class="fas fa-phone-volume"></i>
+          <p>782 387 241</p>
+        </div>
+      </div>
+      <hr>
+      <nav id="nav-footer">
+        <div class="wrapper-links">
+          <ul>
+            <li>
+              <a href="/projects">
+                Projects
+              </a>
+            </li>
+            <li>
+              <a href="/technology">
+                Technology
+              </a>
+            </li>
+            <li>
+              <a href="/aboutMe">
+                About Me
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="wrapper-icons">
+          <ul>
+            <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-google"></i></li>
+            <li><i class="fab fa-github"></i></li>
+            <li><i class="fab fa-linkedin-in"></i></li>
+          </ul>
+        </div>
+      </nav>
+      <p>&copy All rights reserved 2020</p>
+    </footer>
+    
+    <script src="index.js"></script>
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 30,
+        stretch: 0,
+        depth: 500,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+    </script>
+</body>
+</html>
